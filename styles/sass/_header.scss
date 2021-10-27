@@ -1,0 +1,23 @@
+$white: #d9d9e3;
+$black: #1a1b1f;
+$blue: #26C1F6;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: $black;
+}
+
+header{
+    background-color: $black;
+}
+.navbar{
+    border-bottom: 1px solid white;
+    .nav-link{
+        margin-right: 1rem;
+    }
+}
+

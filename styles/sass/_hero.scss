@@ -1,0 +1,29 @@
+.hero{
+    &__row{
+        align-items: flex-end;
+        justify-content: center;
+        padding-top: 10rem;
+        gap: 7rem;
+        
+    }
+    &__col1{
+        color: $white;
+    }
+    &__span{
+        color: $blue;
+    }
+    &__col2{
+        display: flex;
+        align-items: center;
+        height: 20rem;
+        width: 25rem;
+        border-radius: 50px 110px;
+        background-color: white;
+        .image{
+           max-width: 100%;
+           margin-top: 5rem;
+           width: 376px;
+           height: 161px;
+        }
+    }
+}
