@@ -20,14 +20,19 @@ header {
 }
 
 .hero__row {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 10rem;
-  gap: 7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 8rem;
+  gap: 9rem;
+}
+
+.hero__title {
+  font-size: 4rem;
+}
+
+.hero__par {
+  font-size: 1.5rem;
 }
 
 .hero__col1 {
@@ -42,9 +47,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   height: 20rem;
   width: 25rem;
   border-radius: 50px 110px;
@@ -60,17 +65,52 @@ header {
 
 .mainCard {
   margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.mainCard__box {
-  border-radius: 2rem;
+.mainCard__card {
   height: 20rem;
+  width: 15rem;
+  background-color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: -5px -5px 20px 5px #26C1F6;
+          box-shadow: -5px -5px 20px 5px #26C1F6;
 }
 
-.mainCard__icon {
+.footerM {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.footerM__menu {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 2rem;
+}
+
+.footerM__link {
   -ms-grid-column-align: center;
       justify-self: center;
-  font-size: 5rem;
-  color: #26C1F6;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.footerM__redes {
+  color: white;
+  font-size: 1.5rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.footerM__copy {
+  color: grey;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=styles.css.map */

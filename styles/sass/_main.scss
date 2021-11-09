@@ -1,13 +1,13 @@
 .mainCard{
     margin-top: 10rem;
+    display:flex;
+    justify-content: space-around;
     
-    &__box{
-        border-radius: 2rem;
+    &__card{
         height: 20rem;
-    }
-    &__icon{
-        justify-self: center;
-        font-size: 5rem;
-        color: $blue;
+        width: 15rem;
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: -5px -5px 20px 5px $blue;
     }
 }

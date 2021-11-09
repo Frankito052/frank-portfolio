@@ -1,0 +1,24 @@
+.footerM{
+    display: grid;
+    justify-items: center;
+    &__menu{
+        display: grid;
+        margin-top: 2rem;
+    }
+    &__link{
+        justify-self: center;
+        margin-top: 0.5rem;
+        text-decoration: none;
+        color: white;
+    }
+    &__redes{
+        color: white;
+        font-size: 1.5rem;
+        justify-content: space-around;
+        margin-top: 1rem;
+    }
+    &__copy{
+        color:grey;
+        margin-bottom: 1rem;
+    }
+}
