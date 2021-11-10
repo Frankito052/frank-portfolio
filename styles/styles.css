@@ -24,11 +24,11 @@ header {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 8rem;
-  gap: 9rem;
+  gap: 2rem;
 }
 
 .hero__title {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .hero__par {
@@ -64,21 +64,50 @@ header {
 }
 
 .mainCard {
-  margin-top: 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7rem;
+}
+
+.mainCard .row {
+  gap: 3rem;
 }
 
 .mainCard__card {
+  margin-top: 3rem;
   height: 20rem;
   width: 15rem;
   background-color: white;
   border-radius: 1rem;
-  -webkit-box-shadow: -5px -5px 20px 5px #26C1F6;
-          box-shadow: -5px -5px 20px 5px #26C1F6;
+  border: 3px solid #26C1F6;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.mainCard__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 4rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #26C1F6;
+  margin-top: 1rem;
+}
+
+.mainCard__title {
+  border-top: 1px solid #26C1F6;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.mainCard__par {
+  text-align: center;
 }
 
 .footerM {
@@ -107,6 +136,10 @@ header {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: 1rem;
+}
+
+.footerM__iconLink {
+  color: white;
 }
 
 .footerM__copy {
