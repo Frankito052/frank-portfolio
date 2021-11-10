@@ -25,6 +25,9 @@ header {
           align-items: center;
   padding-top: 8rem;
   gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hero__title {
@@ -67,14 +70,20 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 7rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 7rem;
 }
 
 .mainCard .row {
-  gap: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .mainCard__card {
@@ -84,8 +93,6 @@ header {
   background-color: white;
   border-radius: 1rem;
   border: 3px solid #26C1F6;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 .mainCard__icon {

@@ -1,9 +1,11 @@
 .mainCard{
     display:flex;
-    justify-content: center;
     margin-top: 7rem;
+    justify-content: center;
     .row{
-        gap: 3rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
     }
     &__card{
         margin-top: 3rem;
@@ -12,7 +14,6 @@
         background-color: white;
         border-radius: 1rem;
         border: 3px solid $blue;
-        align-content: center;
     }
     &__icon{
         display: flex;
