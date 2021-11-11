@@ -1,0 +1,41 @@
+.proyectMain{
+    margin-top: 6rem;
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        color: $blue;
+        font-size: xxx-large;
+    }
+    &__par{
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-bottom: 4rem;
+    }
+    &__subtitle{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        color: $blue;
+    }
+    &__subpar{
+        display: flex;
+        color: white;
+    }
+    &__proyect1{
+        margin-top: 4rem;
+    }
+    &__proyect2{
+        margin-top: 5rem;
+    }
+    &__proyect3{
+        margin-top: 5rem;
+    }
+    &__icon{
+        display: flex;
+        color: white;
+        font-size: xx-large;
+        justify-content: center;
+    }
+}
