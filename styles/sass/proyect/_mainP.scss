@@ -1,5 +1,6 @@
 .proyectMain{
     margin-top: 6rem;
+    justify-content: center;
 
     &__title{
         display: flex;
@@ -17,20 +18,45 @@
         display: flex;
         justify-content: center;
         margin-top: 1rem;
+        margin-bottom: 1rem;
         color: $blue;
     }
     &__subpar{
         display: flex;
         color: white;
+        justify-content: center;
+        margin-bottom: 0px;
     }
+    &__h3title{
+        display: grid;
+        font-size: x-large;
+        justify-content: center;
+        color: white;
+    }
+
+    &__blockTitle{
+        text-decoration: underline white;
+    }
+
+    &__blockpar{
+        background-color: #0f0f0f;
+        border-radius: 1rem;
+        border: 3px solid white;
+
+    }
+
     &__proyect1{
+        display: grid;
         margin-top: 4rem;
     }
     &__proyect2{
+        display: grid;
         margin-top: 5rem;
     }
     &__proyect3{
+        display: grid;
         margin-top: 5rem;
+        margin-bottom: 5rem;
     }
     &__icon{
         display: flex;

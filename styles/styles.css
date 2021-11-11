@@ -119,6 +119,9 @@ header {
 
 .proyectMain {
   margin-top: 6rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .proyectMain__title {
@@ -151,6 +154,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   color: #26C1F6;
 }
 
@@ -159,18 +163,50 @@ header {
   display: -ms-flexbox;
   display: flex;
   color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0px;
+}
+
+.proyectMain__h3title {
+  display: -ms-grid;
+  display: grid;
+  font-size: x-large;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.proyectMain__blockTitle {
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+.proyectMain__blockpar {
+  background-color: #0f0f0f;
+  border-radius: 1rem;
+  border: 3px solid white;
 }
 
 .proyectMain__proyect1 {
+  display: -ms-grid;
+  display: grid;
   margin-top: 4rem;
 }
 
 .proyectMain__proyect2 {
+  display: -ms-grid;
+  display: grid;
   margin-top: 5rem;
 }
 
 .proyectMain__proyect3 {
+  display: -ms-grid;
+  display: grid;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .proyectMain__icon {
