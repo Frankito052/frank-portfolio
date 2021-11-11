@@ -132,7 +132,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   color: #26C1F6;
-  font-size: xxx-large;
+  font-size: 4rem;
 }
 
 .proyectMain__par {
@@ -179,15 +179,20 @@ header {
   color: white;
 }
 
-.proyectMain__blockTitle {
-  -webkit-text-decoration: underline white;
-          text-decoration: underline white;
-}
-
 .proyectMain__blockpar {
   background-color: #0f0f0f;
   border-radius: 1rem;
   border: 3px solid white;
+  -webkit-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+.proyectMain__blockpar--transition:hover {
+  background-color: #26C1F6;
+}
+
+.proyectMain__link {
+  text-decoration: none;
 }
 
 .proyectMain__proyect1 {
@@ -199,14 +204,15 @@ header {
 .proyectMain__proyect2 {
   display: -ms-grid;
   display: grid;
-  margin-top: 5rem;
+  margin-top: 4rem;
+  border-top: 2px solid white;
 }
 
 .proyectMain__proyect3 {
   display: -ms-grid;
   display: grid;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 4rem;
+  border-top: 2px solid white;
 }
 
 .proyectMain__icon {
@@ -218,6 +224,8 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .footerM {
@@ -243,8 +251,6 @@ header {
 .footerM__redes {
   color: white;
   font-size: 1.5rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   margin-top: 1rem;
 }
 
