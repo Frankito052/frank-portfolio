@@ -183,8 +183,8 @@ header {
   background-color: #0f0f0f;
   border-radius: 1rem;
   border: 3px solid white;
-  -webkit-transition: background-color 2s;
-  transition: background-color 2s;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .proyectMain__blockpar--transition:hover {
@@ -193,6 +193,18 @@ header {
 
 .proyectMain__link {
   text-decoration: none;
+}
+
+.proyectMain__icon1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #d9d9e3;
+  font-size: xx-large;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .proyectMain__proyect1 {
@@ -205,14 +217,14 @@ header {
   display: -ms-grid;
   display: grid;
   margin-top: 4rem;
-  border-top: 2px solid white;
 }
 
 .proyectMain__proyect3 {
   display: -ms-grid;
   display: grid;
   margin-top: 4rem;
-  border-top: 2px solid white;
+  -webkit-box-shadow: white 3px 3px solid;
+          box-shadow: white 3px 3px solid;
 }
 
 .proyectMain__icon {
@@ -226,6 +238,11 @@ header {
           justify-content: center;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+}
+
+.proyectMain__line {
+  margin-top: 1rem;
+  border: 1px solid white;
 }
 
 .footerM {
