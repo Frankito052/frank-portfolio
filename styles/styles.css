@@ -245,6 +245,115 @@ header {
   border: 1px solid white;
 }
 
+.aboutContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8rem;
+}
+
+.aboutContainer__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5rem;
+  color: #26C1F6;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.aboutContainer__col1 {
+  color: white;
+}
+
+.aboutContainer__firstTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.aboutContainer__span {
+  color: #26C1F6;
+}
+
+.aboutContainer__secondTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 300;
+}
+
+.aboutContainer__par1 {
+  margin-top: 4rem;
+  font-weight: 500;
+}
+
+.aboutContainer__col2 {
+  color: white;
+}
+
+.aboutContainer__thirdTitle {
+  display: flexbox;
+}
+
+.aboutContainer__item {
+  list-style: none;
+  font-weight: 500;
+}
+
+.aboutContainer__thirdTitle2 {
+  margin-top: 3rem;
+}
+
+.aboutContainer__col3 {
+  display: flexbox;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutContainer__btn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0.5rem;
+  border: 4px solid #26C1F6;
+  width: 10rem;
+  height: 5rem;
+  -webkit-transition: background-color 1.5s;
+  transition: background-color 1.5s;
+  -webkit-transition: border 1.5s;
+  transition: border 1.5s;
+}
+
+.aboutContainer__btn:hover {
+  background-color: #26C1F6;
+  border: 4px solid white;
+}
+
+.aboutContainer__link {
+  text-decoration: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: black;
+  font-weight: 600;
+}
+
+.aboutContainer__link:hover {
+  color: white;
+}
+
 .footerM {
   display: -ms-grid;
   display: grid;

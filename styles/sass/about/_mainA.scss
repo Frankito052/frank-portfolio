@@ -1,0 +1,84 @@
+.aboutContainer{
+    display: flex;
+    margin-top: 8rem;
+    
+    
+    &__title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+        color: $blue;
+        font-size: 5rem;
+        font-weight: 400;
+    }
+    &__col1{
+        color: white;
+    }
+    &__firstTitle{
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    &__span{
+        color: $blue;
+    }
+    &__secondTitle{
+        display: flex;
+        justify-content: center;
+        font-weight: 300;
+    }
+    &__par1{
+        margin-top: 4rem;
+        font-weight: 500;
+    }
+
+    &__col2{
+        color: white; 
+    }
+
+    &__thirdTitle{
+        display: flexbox;
+    }
+    &__item{
+        list-style: none;
+        font-weight: 500;
+    }
+
+    &__thirdTitle2{
+        margin-top: 3rem;
+    }
+
+    &__col3{
+        display: flexbox;
+        color: white;
+        justify-content: center;
+    }
+
+    &__btn{
+        justify-content: center;
+        border-radius: 0.5rem;
+        border: 4px solid $blue;
+        width: 10rem;
+        height: 5rem;
+        transition: background-color 1.5s;
+        transition: border 1.5s;
+
+        &:hover{
+            background-color: $blue;
+            border: 4px solid white;
+        }
+    }
+    
+
+    &__link{
+        text-decoration: none;
+        align-self: center;
+        color: black;
+        font-weight: 600;
+
+        &:hover{
+            color: white;
+        }
+    }
+
+}
