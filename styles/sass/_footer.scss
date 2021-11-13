@@ -10,6 +10,10 @@
         margin-top: 0.5rem;
         text-decoration: none;
         color: white;
+        &--hover:hover{
+            color:  grey;
+            text-shadow: 0px 0px 15px white;
+        }
     }
     &__redes{
         color: white;
@@ -19,6 +23,10 @@
     }
     &__iconLink{
         color: white;
+
+        &--hover:hover{
+            color: white;
+        }
     }
     &__copy{
         color:grey;

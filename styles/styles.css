@@ -249,7 +249,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 .aboutContainer__title {
@@ -267,6 +267,13 @@ header {
 
 .aboutContainer__col1 {
   color: white;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.aboutContainer__col1--hover:hover {
+  background-color: #0f0f0f;
+  border-radius: 0.5rem;
 }
 
 .aboutContainer__firstTitle {
@@ -299,6 +306,13 @@ header {
 
 .aboutContainer__col2 {
   color: white;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.aboutContainer__col2--hover:hover {
+  background-color: #0f0f0f;
+  border-radius: 0.5rem;
 }
 
 .aboutContainer__thirdTitle {
@@ -322,36 +336,48 @@ header {
           justify-content: center;
 }
 
+.aboutContainer__col3box {
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.aboutContainer__col3box--hover:hover {
+  background-color: #0f0f0f;
+  border-radius: 0.5rem;
+}
+
 .aboutContainer__btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 0.5rem;
   border: 4px solid #26C1F6;
-  width: 10rem;
+  width: 100%;
   height: 5rem;
   -webkit-transition: background-color 1.5s;
   transition: background-color 1.5s;
   -webkit-transition: border 1.5s;
   transition: border 1.5s;
+  font-weight: 600;
 }
 
 .aboutContainer__btn:hover {
   background-color: #26C1F6;
   border: 4px solid white;
+  color: white;
 }
 
 .aboutContainer__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-decoration: none;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
       align-self: center;
-  color: black;
-  font-weight: 600;
-}
-
-.aboutContainer__link:hover {
-  color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footerM {
@@ -374,6 +400,11 @@ header {
   color: white;
 }
 
+.footerM__link--hover:hover {
+  color: grey;
+  text-shadow: 0px 0px 15px white;
+}
+
 .footerM__redes {
   color: white;
   font-size: 1.5rem;
@@ -381,6 +412,10 @@ header {
 }
 
 .footerM__iconLink {
+  color: white;
+}
+
+.footerM__iconLink--hover:hover {
   color: white;
 }
 
