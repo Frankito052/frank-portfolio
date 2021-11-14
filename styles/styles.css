@@ -193,6 +193,12 @@ header {
 }
 
 .proyectMain__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-decoration: none;
 }
 
@@ -229,16 +235,16 @@ header {
 }
 
 .proyectMain__icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  position: relative;
   color: white;
   font-size: xx-large;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+}
+
+.proyectMain__icon--hover:hover {
+  color: black;
 }
 
 .proyectMain__line {
@@ -483,6 +489,70 @@ header {
 .contactContainer__input4--hover:hover {
   background: #b3aca7;
   color: #e2dedb;
+}
+
+.errorContainer {
+  margin-top: 10rem;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.errorContainer__title {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #26C1F6;
+  font-size: 6rem;
+  text-shadow: 3px 2px 5px white;
+}
+
+.errorContainer__title2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #26C1F6;
+  font-size: 5rem;
+  text-shadow: 3px 2px 5px white;
+}
+
+.errorContainer__span {
+  color: #d9d9e3;
+}
+
+.errorContainer__span2 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.errorContainer__link {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+  background-color: #0f0f0f;
+  text-decoration: underline;
+  color: white;
+  font-size: x-large;
+  border-bottom: 1px solid white;
+}
+
+.errorContainer__link--hover:hover {
+  color: #26C1F6;
 }
 
 .footerM {

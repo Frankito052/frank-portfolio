@@ -47,6 +47,8 @@
     }
 
     &__link{
+        display: flex;
+        justify-content: center;
         text-decoration: none;
     }
 
@@ -73,12 +75,16 @@
         box-shadow: white 3px 3px solid;
     }
     &__icon{
-        display: flex;
+        display: inline-block;
+        position: relative;
         color: white;
         font-size: xx-large;
-        justify-content: center;
         margin-top: 1rem;
         margin-bottom: 0.5rem;
+
+        &--hover:hover{
+            color: black;
+        }
     }
     &__line{
         margin-top: 1rem;

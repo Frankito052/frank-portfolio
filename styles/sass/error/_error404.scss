@@ -1,0 +1,44 @@
+.errorContainer{
+    margin-top: 10rem;
+    display: grid;
+    justify-content: center;
+    
+    &__title{
+        display: grid;
+        justify-content: center;
+        color: $blue;
+        font-size: 6rem;
+        text-shadow: 3px 2px 5px white;
+    }
+    &__title2{
+        display: flex;
+        justify-content: center;
+        color: $blue;
+        font-size: 5rem;
+        text-shadow: 3px 2px 5px white;
+    }
+    &__span{
+        color: $white;
+    }
+    &__span2{
+        display: grid;
+        justify-content: center;
+        color: white;
+        font-size: 2rem;
+    }
+
+    &__link{
+        display: grid;
+        justify-content: center;
+        margin-top: 3rem;
+        background-color: #0f0f0f ;
+        text-decoration: underline;
+        color: white;
+        font-size: x-large;
+        border-bottom: 1px solid white;
+
+        &--hover:hover{
+            color: $blue;
+        }
+    }
+}
