@@ -321,7 +321,7 @@ header {
 }
 
 .aboutContainer__item {
-  list-style: none;
+  list-style: circle;
   font-weight: 500;
 }
 
