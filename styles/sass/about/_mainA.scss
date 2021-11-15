@@ -61,12 +61,15 @@
     }
 
     &__col3{
-        display: flexbox;
+        display: grid;
+        align-items: center;
         color: white;
         justify-content: center;
     }
     &__col3box{
         transition: background-color 1s;
+        border: 1px solid white;
+        border-radius: 0.5rem;
 
         &--hover:hover{
             background-color: #0f0f0f;
@@ -102,4 +105,30 @@
         
     }
 
+    &__icon{
+        font-size: 2rem;
+        margin-left: 1rem;
+        color: #e96228;
+    }
+    &__icon2{
+        font-size: 2rem;
+        margin-left: 1rem;
+        color: #1f5faa;
+    }
+    &__icon3{
+        font-size: 2rem;
+        margin-left: 1rem;
+        color: pink;
+    }
+    &__icon4{
+        font-size: 2rem;
+        margin-left: 1rem;
+        color:#eb4d28;
+    }
+    &__icon5{
+        font-size: 2rem;
+        margin-left: 1rem;
+        color: #6e11ef;
+        
+    }
 }

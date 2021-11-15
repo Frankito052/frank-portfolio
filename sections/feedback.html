@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frank-portfolio</title>
+    <meta name="description" content="Visualiza mi portfolio de Desarrollador Web y conoce mis proyectos">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/styles.css">    
+</head>
+<body>
+                                    <!--HEADER-->
+    <header class="sticky-top">
+                                    <!--NAVBAR-->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid position-static">
+                <a class="navBar__link navbar-brand text-white" href="../index.html">
+                    < Frank /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end navBar__container" id="navbarNav">
+                    <ul class="navbar-nav text-center navBar__ul">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/sections/proyect.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/sections/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/sections/contact.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#"">Feedback</a>
+                     </li>
+                   </ul>
+             </div>
+          </div>
+    </nav>
+    </header>
+                                                        <!--NAVBAR-->
+    <main>
+        <div class="container feedbackContainer">
+            <div class="row feedbackContainer__row">
+        <h1 class="feedbackContainer__title">Feedback</h1>
+        <div class="col-md-6 col-12 feedbackContainer__col1">
+            <h3 class="feedbackContainer__title2">Muchas gracias por visitarme!</h3>
+            <p class="feedbackContainer__par">Espero que te haya gustado mi portfolio. Si te ha gustado, me encantaría que dejes un comentario. De lo contrario
+                también puedes dejar alguna recomendación para mejorar la página.
+            </p>
+            <h4 class="feedbackContainer__title3">Hasta luegoo!</h4>
+        </div>
+        <div class="col-md-6 col-12 feedbackContainer__col2">
+                <form id="form" class="contactContainer__form">
+                    <select class="feedbackContainer__select form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected class="aria-label="Disabled select example" disabled">¿Te ha gustado mi portfolio?</option>
+                        <option value="1">Sí</option>
+                        <option value="2">No</option>
+                      </select>
+                      <select class="feedbackContainer__select form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected class="aria-label="Disabled select example" disabled">¿Mejorarías algo del mismo?</option>
+                        <option value="1">Sí</option>
+                        <option value="2">No</option>
+                      </select>
+                      <textarea class="contactContainer__input3 contactContainer__input3--hover col-12" id="message" type="text" placeholder="EXPLAYA TU RESPUESTA"></textarea>
+                <input class="contactContainer__input4 contactContainer__input4--hover col-12" id="submit" type="submit" value="ENVIAR!">
+                </form>
+        </div>
+    </div>
+    </div>
+    </main>
+    <footer>
+        <div class="container footerM">
+        <div class="footerM__menu">
+            <a href="../index.html" class="footerM__link footerM__link--hover">Inicio</a>
+            <a href="/sections/proyect.html" class="footerM__link footerM__link--hover">Proyectos</a>
+            <a href="/sections/about.html" class="footerM__link footerM__link--hover">About</a>
+            <a href="/sections/contact.html" class="footerM__link footerM__link--hover">Contacto</a>
+            <a href="#" class="footerM__link footerM__link--hover">Feedback</a>
+        </div>
+        <div class="footerM__redes">
+            <a class="footerM__iconLink footerM__iconLink--hover" href="https://github.com/Frankito052/Frankito052">
+                <i class="bi bi-github"></i></a>
+                <a class="footerM__iconLink footerM__iconLink--hover" href="https://www.instagram.com/frank_piacente/?hl=es">
+                <i class="bi bi-instagram"></i></a>
+                <a class="footerM__iconLink footerM__iconLink--hover" href="https://www.youtube.com/watch?v=mCdA4bJAGGk">
+                <i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="footerM__copy">
+            Coderhouse | Franco Piacente © 2021</div>
+        </div>
+    </footer>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>   
+</body>
+</html>

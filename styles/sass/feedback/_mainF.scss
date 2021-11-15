@@ -1,0 +1,38 @@
+.feedbackContainer{
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        margin-top: 7rem;
+        font-size: xxx-large;
+        color: $blue;
+        text-shadow: 2px 4px 2px black;
+    }
+
+    &__col1{
+        display: grid;
+        justify-items: center;
+        margin-top: 4rem;
+        color: white;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    &__title2{
+        text-decoration: underline $blue;
+    }
+
+    &__col2{
+        display: grid;
+        margin-top: 4rem;
+    }
+
+    &__select{
+        color: black;
+        border: solid 1px #b3aca7;
+        border-radius: 0px;
+        background-color:#e2dedb;
+        padding: 1rem;
+        margin-bottom: 0px !important;
+    }
+
+}

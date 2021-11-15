@@ -7,7 +7,12 @@
         margin-top: 5rem;
         font-size: xxx-large;
         color: $blue;
-        font-weight: 400;
+        font-weight: 600;
+        text-shadow: 2px 4px 2px black;
+    }
+
+    &__title4{
+        text-decoration: underline;
     }
 
     &__col1{
@@ -17,6 +22,12 @@
         color: white;
         font-weight: 400;
         font-size: 0.875em;
+        border-radius: 5px;
+
+        &--hover:hover{
+            border: 1px solid $blue;
+            border-radius: 6px;
+        }
     }
 
     &__col2{
@@ -25,6 +36,11 @@
         margin-top: 4rem;
         color: white;
         font-weight: 500;
+
+        &--hover:hover{
+            border: 1px solid $blue;
+            border-radius: 6px;
+        }
     }
 
     &__col3{

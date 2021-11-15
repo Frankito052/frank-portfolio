@@ -12,8 +12,19 @@ header{
 }
 .navbar{
     border-bottom: 1px solid white;
+
+
     .nav-link{
         margin-right: 1rem;
     }
+
+    .nav-link:hover{
+        color: $blue !important;
+        text-shadow: 3px 2px 5px black;
+        text-decoration: underline;
+
+    }
+    
 }
+
 

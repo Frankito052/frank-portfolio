@@ -59,7 +59,21 @@
 
     &__icon1{
         display: flex;
-        color: $white;
+        color: grey;
+        font-size: xx-large;
+        justify-content: center;
+        text-align: center;
+    }
+    &__icon2{
+        display: flex;
+        color: red;
+        font-size: xx-large;
+        justify-content: center;
+        text-align: center;
+    }
+    &__icon3{
+        display: flex;
+        color: green;
         font-size: xx-large;
         justify-content: center;
         text-align: center;
@@ -69,8 +83,8 @@
         display: grid;
         margin-top: 4rem;
         background-color: transparent black;
-        
-    }
+        }
+
     &__proyect2{
         display: grid;
         margin-top: 4rem;
