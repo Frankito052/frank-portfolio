@@ -6,7 +6,9 @@
         justify-content: center;
     }
     &__title{
-        font-size: 3.5rem
+        font-size: 3.5rem;
+        text-shadow: 2px 4px 2px black;
+        
     }
     &__par{
         font-size: 1.5rem;
@@ -16,6 +18,7 @@
     }
     &__span{
         color: $blue;
+        text-shadow: 2px 4px 2px black ;
     }
     &__col2{
         display: flex;
@@ -24,6 +27,7 @@
         width: 25rem;
         border-radius: 50px 110px;
         background-color: white;
+        box-shadow: 6px 3px 4px $blue;
         .image{
            max-width: 100%;
            margin-top: 5rem;

@@ -33,6 +33,7 @@ header {
 
 .hero__title {
   font-size: 3.5rem;
+  text-shadow: 2px 4px 2px black;
 }
 
 .hero__par {
@@ -45,6 +46,7 @@ header {
 
 .hero__span {
   color: #26C1F6;
+  text-shadow: 2px 4px 2px black;
 }
 
 .hero__col2 {
@@ -58,6 +60,8 @@ header {
   width: 25rem;
   border-radius: 50px 110px;
   background-color: white;
+  -webkit-box-shadow: 6px 3px 4px #26C1F6;
+          box-shadow: 6px 3px 4px #26C1F6;
 }
 
 .hero__col2 .image {
@@ -96,6 +100,12 @@ header {
   border: 3px solid #26C1F6;
 }
 
+.mainCard__card--hover:hover {
+  text-shadow: 1px 3px 2px grey;
+  -webkit-box-shadow: 2px 4px 10px white;
+          box-shadow: 2px 4px 10px white;
+}
+
 .mainCard__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,6 +126,7 @@ header {
 
 .mainCard__par {
   text-align: center;
+  margin-top: 1rem;
 }
 
 .proyectMain {
@@ -123,6 +134,8 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .proyectMain__title {
@@ -134,6 +147,7 @@ header {
           justify-content: center;
   color: #26C1F6;
   font-size: 4rem;
+  text-shadow: 3px 2px 4px black;
 }
 
 .proyectMain__par {
@@ -157,6 +171,7 @@ header {
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: #26C1F6;
+  text-shadow: 3px 2px 4px black;
 }
 
 .proyectMain__subpar {
@@ -186,19 +201,20 @@ header {
   border: 3px solid white;
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
+  -webkit-transform: all;
+          transform: all;
 }
 
 .proyectMain__blockpar--transition:hover {
   background-color: #26C1F6;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 5px 6px 5px grey;
+          box-shadow: 5px 6px 5px grey;
+  border: 3px solid black;
 }
 
 .proyectMain__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   text-decoration: none;
 }
 
@@ -218,6 +234,7 @@ header {
   display: -ms-grid;
   display: grid;
   margin-top: 4rem;
+  background-color: transparent black;
 }
 
 .proyectMain__proyect2 {
@@ -235,8 +252,8 @@ header {
 }
 
 .proyectMain__icon {
-  display: inline-block;
-  position: relative;
+  -ms-grid-column-align: center;
+      justify-self: center;
   color: white;
   font-size: xx-large;
   margin-top: 1rem;
@@ -247,9 +264,19 @@ header {
   color: black;
 }
 
-.proyectMain__line {
-  margin-top: 1rem;
-  border: 1px solid white;
+.proyectMain__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px;
+}
+
+.proyectMain__list li {
+  list-style: none;
+  margin-right: 2rem;
 }
 
 .aboutContainer {
@@ -508,7 +535,7 @@ header {
           justify-content: center;
   color: #26C1F6;
   font-size: 6rem;
-  text-shadow: 3px 2px 5px white;
+  text-shadow: 3px 2px 5px black;
 }
 
 .errorContainer__title2 {
@@ -520,7 +547,7 @@ header {
           justify-content: center;
   color: #26C1F6;
   font-size: 5rem;
-  text-shadow: 3px 2px 5px white;
+  text-shadow: 3px 2px 5px black;
 }
 
 .errorContainer__span {
@@ -544,15 +571,14 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 3rem;
-  background-color: #0f0f0f;
-  text-decoration: underline;
   color: white;
-  font-size: x-large;
-  border-bottom: 1px solid white;
+  font-size: xx-large;
+  text-decoration: none;
 }
 
 .errorContainer__link--hover:hover {
   color: #26C1F6;
+  text-decoration: underline;
 }
 
 .footerM {

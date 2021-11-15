@@ -8,14 +8,14 @@
         justify-content: center;
         color: $blue;
         font-size: 6rem;
-        text-shadow: 3px 2px 5px white;
+        text-shadow: 3px 2px 5px black;
     }
     &__title2{
         display: flex;
         justify-content: center;
         color: $blue;
         font-size: 5rem;
-        text-shadow: 3px 2px 5px white;
+        text-shadow: 3px 2px 5px black;
     }
     &__span{
         color: $white;
@@ -31,14 +31,13 @@
         display: grid;
         justify-content: center;
         margin-top: 3rem;
-        background-color: #0f0f0f ;
-        text-decoration: underline;
         color: white;
-        font-size: x-large;
-        border-bottom: 1px solid white;
+        font-size: xx-large;
+        text-decoration: none;
 
         &--hover:hover{
             color: $blue;
+            text-decoration: underline;
         }
     }
 }
