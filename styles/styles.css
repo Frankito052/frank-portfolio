@@ -66,8 +66,8 @@ header {
   width: 25rem;
   border-radius: 50px 110px;
   background-color: white;
-  -webkit-box-shadow: 6px 3px 4px #26C1F6;
-          box-shadow: 6px 3px 4px #26C1F6;
+  -webkit-box-shadow: 6px 3px 4px black;
+          box-shadow: 6px 3px 4px black;
 }
 
 .hero__col2 .image {
